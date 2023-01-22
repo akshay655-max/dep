@@ -16,7 +16,7 @@ app.use(
     useTempFiles: true,
   })
 );
-// Routes
+
 app.get("/", (req, res) => {
   res.send({ msg: "Welcome to First Cry Clone" })
 });
